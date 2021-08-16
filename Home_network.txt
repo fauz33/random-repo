@@ -1,0 +1,5 @@
+I am using virtual machine as my testing labs and KVM as the hypervisor managed by Virt Manager.
+
+I am choosing KVM because currently a lot of company already moving to KVM. So, I want to get familiar with it so that I am able to figure out how it works, basic tools and commands to install and manage it and also basic troubleshooting.
+
+There are Windows, Linux and also Solaris VMs in my testing environment. I am using it if I want to do some testing like OS upgrade, database upgrade and also testing some scenario before implement it in production. I also installed FreeBSD vm and using it as ZFS storage. I am using that VM as shared storage to setup and test cluster environment like Oracle RAC database and also setup nested KVM environment to test on VM live migration using KVM.

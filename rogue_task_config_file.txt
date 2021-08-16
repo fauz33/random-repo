@@ -1,0 +1,21 @@
+Create file /etc/systemd/system/rogue-files.service with below content:
+
+[Unit]
+Description="A script to list big rogue files"
+
+[Service]
+ExecStart=/usr/local/bin/rogue.sh
+
+Create file /etc/systemd/system/rogue-files.timer with below content:
+
+[Unit]
+Description="List big rogue files"
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+OnBootSec=3min
+
+
+[Install]
+WantedBy=timers.target

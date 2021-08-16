@@ -8,3 +8,4 @@ git commit -m "Push all files"
 git push -u origin master 
 git add git_command.txt
 git commit -m "Push git command"
+git push -u origin master 

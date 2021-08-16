@@ -1,0 +1,10 @@
+git init
+git config --global user.email "fauz33@gmail.com"
+git config --global user.name "fauz33"
+git remote add origin https://github.com/fauz33/random-repo.git
+git push -u origin master
+git add *
+git commit -m "Push all files"
+git push -u origin master 
+git add git_command.txt
+git commit -m "Push git command"

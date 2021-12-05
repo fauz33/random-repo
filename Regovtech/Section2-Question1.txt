@@ -1,0 +1,1 @@
+List data structure had been choosen because it can store class objects. It also part of the core Python language. So, no need to import extra library to use it. Other than, based on current case, it need to store one dimensional data which is enough to use List data structure.
